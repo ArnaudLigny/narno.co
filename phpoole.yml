@@ -1,6 +1,6 @@
 site:
   title: Narno.co
   baseline: Narno's URL shortener.
-  baseurl: https://nrn.netlify.com/
+  baseurl: https://narno.co/
   description: Narno's URL shortener.
   language: en
