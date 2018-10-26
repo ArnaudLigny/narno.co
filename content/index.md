@@ -1,6 +1,4 @@
 ---
 title: Home
-layout: redirect.html
-destination: https://narno.com
+redirect: https://narno.com
 ---
-
