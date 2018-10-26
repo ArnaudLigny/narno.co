@@ -1,0 +1,3 @@
+{% for page in site.pages|filterBy('section', 'r')|filterBy('virtual', false)|sortByDate %}
+{{ '/' ~ page.pathname ~ '/' }}    {{ page.destination }}
+{% endfor %}
