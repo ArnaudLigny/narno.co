@@ -4,3 +4,10 @@ site:
   baseurl: https://narno.co/
   description: Narno's URL shortener.
   language: en
+  fmpages:
+    index:
+      permalink: index.html
+      redirect: https://narno.com
+    redirects:
+      layout: netlify-redirects.txt
+      permalink: _redirects
