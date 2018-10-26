@@ -1,0 +1,22 @@
+prose:
+  rooturl: 'content'
+  siteurl: 'https://narno.co/r/'
+  media: 'static'
+  metadata:
+    content/r:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          placeholder: "Google.fr"
+      - name: "redirect"
+        field:
+          element: "text"
+          label: "Link"
+          placeholder: "https://google.fr"
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date"
+          value: "CURRENT_DATETIME"
+          placeholder: "YYYY-MM-DD HH:MM"
