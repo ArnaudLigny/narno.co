@@ -2,11 +2,12 @@ site:
   title: Narno.co
   baseline: Narno's URL shortener.
   baseurl: https://narno.co/
+  canonicalurl: false
   description: Narno's URL shortener.
   language: en
   fmpages:
     index:
-      permalink: index.html
+      permalink: /
       redirect: https://narno.com
     redirects:
       layout: netlify-redirects.txt
