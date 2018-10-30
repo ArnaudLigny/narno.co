@@ -14,7 +14,19 @@
   <script src="https://identity-js.netlify.com/{{ site.netlify.identity.version|default('v1') }}/netlify-identity-widget.js"></script>
   <!-- Custom preview -->
   <script>
-    CMS.registerPreviewStyle("/css/style.css");
+    CMS.registerPreviewStyle("/css/styles.css");
+  </script>
+  <script>
+    var URLPreview = createClass({
+      render: function() {
+        var entry = this.props.entry;
+        return h('div', {},
+          h('span', {}, entry.getIn(['data', 'title'])),
+          h('span', {}, entry.getIn(['data', 'slug']))
+        );
+      }
+    });
+    //CMS.registerPreviewTemplate("r", URLPreview);
   </script>
 </body>
 </html>
