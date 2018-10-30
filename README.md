@@ -29,6 +29,8 @@ Use PHPoole to (re)build the static website:
 php phpoole.phar build
 ```
 
-> Note: it supports [Netlify](https://www.netlify.com/docs/redirects/)'s `_redirects` file.
+### Deploy
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Narno/narno.co)
+
+> Note: it supports [Netlify](https://www.netlify.com/docs/redirects/)'s `_redirects` file and [Netlify CMS](https://www.netlifycms.org/).
