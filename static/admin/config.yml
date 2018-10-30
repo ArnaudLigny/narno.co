@@ -8,10 +8,12 @@ collections:
     name: "r"
     folder: "content/r"
     create: true
+    editor:
+      preview: false
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Title", name: "title", widget: "string", hint: "Title is used to create the short URL. ie: 'My Title' become '/my-title'."}
       - {label: "URL", name: "redirect", widget: "string", required: true}
+      - {label: "Date", name: "date", widget: "datetime", hint: "(optionnal)"}
   - label: "Settings"
     name: "settings"
     description: >
