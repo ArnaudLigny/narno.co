@@ -11,3 +11,15 @@ site:
     redirects:
       layout: _redirects.txt
       permalink: _redirects
+    admin:
+      layout: admin/index.html
+      title: 'Content Manager (Netlify CMS)'
+  date:
+    format: 'j F Y'
+    timezone: 'Europe/Paris'
+  netlify:
+    cms:
+      path: 'admin'
+      version: 'latest'
+    identity:
+      version: 'v1'
