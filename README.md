@@ -30,3 +30,5 @@ php phpoole.phar build
 ```
 
 > Note: it supports [Netlify](https://www.netlify.com/docs/redirects/)'s `_redirects` file.
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Narno/narno.co)
