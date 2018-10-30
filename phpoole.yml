@@ -7,7 +7,7 @@ site:
   fmpages:
     index:
       permalink: /
-      redirect: https://narno.com
+      redirect: /r/
     redirects:
       layout: _redirects.txt
       permalink: _redirects
