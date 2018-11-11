@@ -4,11 +4,6 @@ prose:
   media: 'static'
   metadata:
     content/r:
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          placeholder: "Google.fr"
       - name: "redirect"
         field:
           element: "text"
