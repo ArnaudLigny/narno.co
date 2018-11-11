@@ -20,3 +20,7 @@ prose:
           label: "Date"
           value: "CURRENT_DATETIME"
           placeholder: "YYYY-MM-DD HH:MM"
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
