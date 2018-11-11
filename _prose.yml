@@ -1,5 +1,5 @@
 prose:
-  rooturl: 'content'
+  rooturl: 'content/r'
   siteurl: 'https://narno.co/r/'
   media: 'static'
   metadata:
