@@ -24,7 +24,7 @@ collections:
     files:
       - label: "Configuration"
         name: "config"
-        file: "phpoole.yml"
+        file: "cecil.yml"
         fields:
           - label: "Site"
             name: "site"
