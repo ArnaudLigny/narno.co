@@ -1,12 +1,12 @@
 # narno.co
 
-> URL shortener powered by [PHPoole](https://phpoole.org) (a Static Site Generator).
+> URL shortener powered by [Cecil](https://cecil.app) (a Static Site Generator).
 
 ## Installation
 
-Clone this repository then [install PHPoole](https://phpoole.org/download/):
+Clone this repository then [install Cecil](https://cecil.app/download/):
 ```bash
-curl -SOL https://phpoole.org/phpoole.phar
+curl -SOL https://cecil.org/cecil.phar
 ```
 
 ## Usage
@@ -24,9 +24,9 @@ redirect: https://www.google.fr/search?q=narno
 
 ### Build website
 
-Use PHPoole to (re)build the static website:
+Use Cecil to (re)build the static website:
 ```bash
-php phpoole.phar build
+php cecil.phar build
 ```
 
 ### Deploy
