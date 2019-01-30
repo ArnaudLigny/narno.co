@@ -2,6 +2,8 @@
 
 > URL shortener powered by [Cecil](https://cecil.app) (a Static Site Generator).
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e9c3111a-80e1-43a6-b815-07fed77bbda7/deploy-status)](https://app.netlify.com/sites/nrn/deploys)
+
 ## Installation
 
 Clone this repository then [install Cecil](https://cecil.app/download/):
