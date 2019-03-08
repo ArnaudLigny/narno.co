@@ -11,7 +11,7 @@ site:
         extension: ''
   virtualpages:
     /:
-      redirect: /r/
+      redirect: r/
     admin:
       layout: admin/index
       title: "Content Manager (Netlify CMS)"
