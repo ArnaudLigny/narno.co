@@ -11,10 +11,11 @@ site:
         extension: ''
   virtualpages:
     /:
-      redirect: https://narno.co/r/
+      redirect: r
     admin:
       layout: admin/index
       title: "Content Manager (Netlify CMS)"
+      output: html
     _redirects:
       output: netlify_redirects
   date:
