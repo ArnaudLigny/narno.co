@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-{% include 'include/head.html.twig' %}
+{% include 'partials/head.html.twig' %}
   <body>
     <div class="container content">
       <header class="masthead">
@@ -13,8 +13,8 @@
         <ul>
 {% for page in site.pages|filterBy('section', 'r')|sortByDate if page.redirect is defined %}
           <li><a href="{{ url(page) }}">{{ page.title }}</a> <small>({{ page.date|date("Y/m/d") }})</small><br/>
-            <input id="url" type"url" value="{{ url(page, {'canonical': true}) }}" size="75" readonly/><br/>
-            <input id="url" type"url" value="{{ url(page.destination, {'canonical': true}) }}" size="75" readonly/>
+            <input id="url" type"url" value="{{ url(page, {canonical:true}) }}" size="75" readonly/><br/>
+            <input id="url" type"url" value="{{ url(page.redirect, {canonical:true}) }}" size="75" readonly/>
           </li>
 {% endfor %}
         </ul>
