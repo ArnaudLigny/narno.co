@@ -1,19 +1,20 @@
 site:
-  title: Narno.co
-  baseline: Narno's URL shortener.
+  title: "Narno.co"
+  baseline: "Narno's URL shortener."
   baseurl: https://narno.co/
-  description: Narno's URL shortener.
+  description: "Narno's URL shortener."
   language: en
-  fmpages:
-    index:
-      permalink: /
+  output:
+    formats:
+      netlify_redirects:
+        mediatype: 'text/plain'
+        extension: ''
+  virtualpages:
+    /:
       redirect: /r/
-    redirects:
-      layout: _redirects.txt
-      permalink: _redirects
     admin:
-      layout: admin/index.html
-      title: 'Content Manager (Netlify CMS)'
+      layout: admin/index
+      title: "Content Manager (Netlify CMS)"
   date:
     format: 'j F Y'
     timezone: 'Europe/Paris'
