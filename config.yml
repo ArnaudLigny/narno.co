@@ -10,8 +10,8 @@ site:
         mediatype: 'text/plain'
         extension: ''
   virtualpages:
-    :
-      redirect: pouet
+    /:
+      redirect: https://narno.co/r/
     admin:
       layout: admin/index
       title: "Content Manager (Netlify CMS)"
