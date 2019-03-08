@@ -15,6 +15,8 @@ site:
     admin:
       layout: admin/index
       title: "Content Manager (Netlify CMS)"
+    _redirects:
+      output: netlify_redirects
   date:
     format: 'j F Y'
     timezone: 'Europe/Paris'
