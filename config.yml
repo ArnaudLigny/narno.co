@@ -10,7 +10,7 @@ site:
         mediatype: 'text/plain'
         extension: ''
   virtualpages:
-    /:
+    :
       redirect: pouet
     admin:
       layout: admin/index
