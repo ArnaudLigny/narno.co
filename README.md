@@ -8,7 +8,7 @@
 
 Clone this repository then [install Cecil](https://cecil.app/download/):
 ```bash
-curl -SOL https://cecil.org/cecil.phar
+curl -SOL https://cecil.app/cecil.phar
 ```
 
 ## Usage
