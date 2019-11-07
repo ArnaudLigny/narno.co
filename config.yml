@@ -1,29 +1,28 @@
-site:
-  title: "Narno.co"
-  baseline: "Narno's URL shortener."
-  baseurl: https://narno.co/
-  description: "Narno's URL shortener."
-  language: en
-  output:
-    formats:
-      netlify_redirects:
-        mediatype: 'text/plain'
-        extension: ''
-  virtualpages:
-    /:
-      redirect: r
-    admin:
-      layout: admin/index
-      title: "Content Manager (Netlify CMS)"
-      output: html
-    _redirects:
-      output: netlify_redirects
-  date:
-    format: 'j F Y'
-    timezone: 'Europe/Paris'
-  netlify:
-    cms:
-      path: 'admin'
-      version: 'latest'
-    identity:
-      version: 'v1'
+title: "Narno.co"
+baseline: "Narno's URL shortener."
+baseurl: https://narno.co/
+description: "Narno's URL shortener."
+language: en
+output:
+  formats:
+    netlify_redirects:
+      mediatype: 'text/plain'
+      extension: ''
+virtualpages:
+  /:
+    redirect: r
+  admin:
+    layout: admin/index
+    title: "Content Manager (Netlify CMS)"
+    output: html
+  _redirects:
+    output: netlify_redirects
+date:
+  format: 'j F Y'
+  timezone: 'Europe/Paris'
+netlify:
+  cms:
+    path: 'admin'
+    version: 'latest'
+  identity:
+    version: 'v1'
