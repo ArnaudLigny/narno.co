@@ -10,6 +10,6 @@
   command = "chmod +x netlify.sh && bash netlify.sh $DEPLOY_PRIME_URL"
 
 [template.environment]
-  PHPOOLE_SITE_TITLE = "Title"
-  PHPOOLE_SITE_BASELINE = "Short description"
-  PHPOOLE_SITE_DESCRIPTION = "Full description"
+  CECIL_TITLE = "Title"
+  CECIL_BASELINE = "Short description"
+  CECIL_DESCRIPTION = "Full description"
