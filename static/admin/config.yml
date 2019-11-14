@@ -24,7 +24,7 @@ collections:
     files:
       - label: "Configuration"
         name: "config"
-        file: "cecil.yml"
+        file: "config.yml"
         fields:
           - {label: "Title", name: "title", widget: "string", default: "Narno.co", required: true}
           - {label: "Baseline", name: "baseline", widget: "string", default: "URL Shortener.", required: true}
