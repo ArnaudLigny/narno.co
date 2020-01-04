@@ -1,9 +1,9 @@
 prose:
-  rooturl: 'content/r'
-  siteurl: 'https://narno.co/r/'
+  rooturl: 'content/l'
+  siteurl: 'https://narno.co/l/'
   media: 'static'
   metadata:
-    content/r:
+    content/l:
       - name: "title"
         field:
           element: "text"
