@@ -5,8 +5,8 @@ media_folder: "static/images"
 public_folder: "/images"
 collections:
   - label: "URL"
-    name: "r"
-    folder: "content/r"
+    name: "l"
+    folder: "content/l"
     create: true
     editor:
       preview: false
