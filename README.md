@@ -20,9 +20,9 @@ Create a `*.md` file in `content/l` directory.
 **`ggl.md`**:
 ```yaml
 ---
-title: 'Google search "narno"'
-date: '2018-10-25'
+slug: 'ggl'
 redirect: https://www.google.fr/search?q=narno
+title: 'Google search "narno"'
 ---
 ```
 
