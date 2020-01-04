@@ -14,7 +14,7 @@ collections:
     editor:
       preview: false
     fields:
-      - {label: "Slug", name: "slug", widget: "string", required: true, hint: "Slug is used to create the link. ie: 'my-slug'.", pattern: ["^([a-z-0-9])+$", "Slug must be like 'my-slug'"]}
+      - {label: "Slug", name: "slug", widget: "string", required: true, hint: "Slug is used to create the link. ie: 'my-slug'.", pattern: ["^([a-z-0-9])+$", "[a-z-0-9]"]}
       - {label: "Target URL", name: "redirect", widget: "string", required: true}
       - {label: "Title", name: "title", widget: "string", hint: "(optionnal)"}
   - label: "Settings"
