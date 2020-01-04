@@ -15,7 +15,7 @@ curl -SOL https://cecil.app/cecil.phar
 
 ### Add URL
 
-Create a `*.md` file in `content/l` directory:
+Create a `*.md` file in `content/l` directory.
 
 **`ggl.md`**:
 ```yaml
