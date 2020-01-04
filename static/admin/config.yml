@@ -5,6 +5,7 @@ media_folder: "static/images"
 public_folder: "/images"
 collections:
   - label: "Links"
+    label_singular: "Link"
     name: "l"
     identifier_field: slug
     folder: "content/l"
