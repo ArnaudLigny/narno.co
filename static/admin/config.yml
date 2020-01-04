@@ -15,6 +15,7 @@ collections:
     fields:
       - {label: "Slug", name: "slug", widget: "string", required: true, hint: "Slug is used to create the link. ie: 'my-slug'."}
       - {label: "Target URL", name: "redirect", widget: "string", required: true}
+      - {label: "Title", name: "title", widget: "string", hint: "(optionnal)"}
       - {label: "Date", name: "date", widget: "datetime", hint: "(optionnal)"}
   - label: "Settings"
     name: "settings"
