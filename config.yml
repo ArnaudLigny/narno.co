@@ -1,7 +1,7 @@
 title: "Narno.co"
-baseline: "Narno's URL shortener."
+baseline: "Static URL shortener!"
 baseurl: https://narno.co/
-description: "Narno's URL shortener."
+description: "Static URL Shortener, Custom Links & Link Management."
 language: en
 output:
   formats:
