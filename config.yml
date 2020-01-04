@@ -10,7 +10,7 @@ output:
       extension: ''
 virtualpages:
   /:
-    redirect: r
+    redirect: l
   admin:
     layout: admin/index
     title: "Content Manager (Netlify CMS)"
