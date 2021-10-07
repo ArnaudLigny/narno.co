@@ -1,0 +1,15 @@
+# Apache's Redirect if mod_alias is available
+<IfModule mod_alias.c>
+{% for page in site.pages|sortByDate if page.redirect is defined %}
+  Redirect 301 "{{ url(page, {canonical:false}) }}" "{{ url(page.redirect, {canonical:false}) }}"
+{% endfor %}
+</IfModule>
+
+# Apache's RewriteRule if mod_rewrite is available
+<IfModule !mod_alias.c>
+  <IfModule mod_rewrite.c>
+{% for page in site.pages|sortByDate if page.redirect is defined %}
+    RewriteRule ^{{ url(page, {canonical:false}) }}$ {{ url(page.redirect, {canonical:false}) }} [QSA,L,R=301]
+{% endfor %}
+  </IfModule>
+</IfModule>

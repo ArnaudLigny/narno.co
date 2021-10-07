@@ -1,0 +1,21 @@
+title: "cecil.link"
+baseline: "Static URL shortener!"
+baseurl: https://cecil.local/
+description: "Static URL Shortener powered by Cecil."
+theme:
+  - netlify
+  - netlify-cms
+defaultpages:
+  sitemap:
+    published: false
+virtualpages:
+  # Apache Rewrite file
+  - path: .htaccess
+    output: apache_rewrite
+output:
+  formats:
+    apache_rewrite:
+      mediatype: 'text/plain'
+      extension: ''
+  pagetypeformats:
+    homepage: [html]

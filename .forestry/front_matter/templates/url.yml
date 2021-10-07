@@ -1,0 +1,14 @@
+---
+label: url
+hide_body: true
+display_field: redirect
+fields:
+- type: text
+  name: redirect
+  label: URL
+  config:
+    required: true
+pages:
+- content/ali.md
+- content/cecil.md
+- content/index.md

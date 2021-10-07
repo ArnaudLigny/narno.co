@@ -1,0 +1,29 @@
+backend:
+  name: git-gateway
+  branch: master
+  squash_merges: true
+publish_mode: editorial_workflow
+media_folder: "static/images"
+public_folder: "/images"
+logo_url: https://cecil.app/images/cecil-logo-netlify-cms.png
+show_preview_links: true
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "-"
+collections:
+  - label: "URL"
+    label_singular: "URL"
+    name: "url"
+    identifier_field: "redirect"
+    description: >
+      URL collection.
+    folder: "content"
+    editor:
+      preview: false
+    create: true
+    slug: "{{slug}}"
+    preview_path: "{{slug}}"
+    fields:
+      - {label: "Slug", name: "slug", widget: "string", required: true}
+      - {label: "URL", name: "redirect", widget: "string", required: true}

@@ -1,0 +1,6 @@
+{
+  "require": {
+    "cecil/theme-netlify": "^1.1",
+    "cecil/theme-netlifycms": "^1.5"
+  }
+}
