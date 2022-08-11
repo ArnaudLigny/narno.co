@@ -18,7 +18,7 @@ _cecil.link_ creates:
 
 ### Create an URL
 
-To create a new URL just create a Markdown file in the `content/` directory, with a `redirect` variable stored in the front matter.
+To create a new URL just create a Markdown file in the `pages/` directory, with a `redirect` variable stored in the front matter.
 
 #### Example
 
