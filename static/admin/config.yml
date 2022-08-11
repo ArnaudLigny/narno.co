@@ -18,7 +18,7 @@ collections:
     identifier_field: "redirect"
     description: >
       URL collection.
-    folder: "content"
+    folder: "pages"
     editor:
       preview: false
     create: true

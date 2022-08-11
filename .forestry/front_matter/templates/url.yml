@@ -9,6 +9,6 @@ fields:
   config:
     required: true
 pages:
-- content/ali.md
-- content/cecil.md
-- content/index.md
+- pages/ali.md
+- pages/cecil.md
+- pages/index.md
