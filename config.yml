@@ -1,13 +1,37 @@
-title: "cecil.link"
-baseline: "Static URL shortener!"
-baseurl: https://cecil.local/
-description: "Static URL Shortener powered by Cecil."
+title: "Narno"
+baseurl: https://narno.co/
+description: "Quelques liens à propos de Narno."
+author:
+  name: Narno
+  url: https://narno.com
+language: fr
+languages:
+  - code: fr
+    locale: fr_FR
+    name: Français
+avatar: avatar.png
+image: avatar.png
+source: https://github.com/Cecilapp/Links
 theme:
+  - pwa
   - netlify
   - netlify-cms
+manifest:
+  background_color: '#1E293B'
+  theme_color: '#1E293B'
+serviceworker:
+  enabled: true
+
 defaultpages:
+  404:
+    published: false
   sitemap:
     published: false
+taxonomies:
+  categories: disabled
+  tags: disabled
+pagination:
+  enabled: false
 virtualpages:
   # Apache Rewrite file
   - path: .htaccess
@@ -18,4 +42,4 @@ output:
       mediatype: 'text/plain'
       extension: ''
   pagetypeformats:
-    homepage: [html]
+    homepage: html

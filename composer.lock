@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1ee598be76ba95b9dc1da61cb6374a91",
+    "content-hash": "8a7d896c41d8b456b7a1d4b3151044f2",
     "packages": [
         {
             "name": "cecil/theme-installer",
@@ -184,6 +184,60 @@
                 }
             ],
             "time": "2022-03-02T02:06:36+00:00"
+        },
+        {
+            "name": "cecil/theme-pwa",
+            "version": "1.13.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Cecilapp/theme-pwa.git",
+                "reference": "0d448e532b3825ee92e226f1db12ed7f954cbed0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Cecilapp/theme-pwa/zipball/0d448e532b3825ee92e226f1db12ed7f954cbed0",
+                "reference": "0d448e532b3825ee92e226f1db12ed7f954cbed0",
+                "shasum": ""
+            },
+            "require": {
+                "cecil/theme-installer": "^1.4"
+            },
+            "type": "cecil-theme",
+            "extra": {
+                "name": "pwa",
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Cecil component theme PWA",
+            "keywords": [
+                "cecil",
+                "pwa",
+                "service worker",
+                "theme"
+            ],
+            "support": {
+                "source": "https://github.com/Cecilapp/theme-pwa/tree/1.13.0"
+            },
+            "funding": [
+                {
+                    "url": "https://www.paypal.me/narno",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/ArnaudLigny",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/cecil",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2022-07-04T16:33:18+00:00"
         }
     ],
     "packages-dev": [],

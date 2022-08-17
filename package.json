@@ -1,0 +1,9 @@
+{
+  "name": "cecil-links",
+  "devDependencies": {
+    "tailwindcss": "^3.0"
+  },
+  "scripts": {
+    "build": "curl -sSOL https://cecil.app/build.sh && bash ./build.sh"
+  }
+}

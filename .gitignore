@@ -3,3 +3,4 @@ _site/
 .cecil/
 vendor/
 themes/
+node_modules/
