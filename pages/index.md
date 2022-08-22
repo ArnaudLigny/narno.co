@@ -22,3 +22,5 @@ links:
     icon: solid:envelope
 ---
 Hello, je suis Narno 👋
+
+Papa, cycliste urbain, gamer, travailleur dans les Internets, contributeur open source, agnostique, humaniste, amateur de bière.
