@@ -21,6 +21,4 @@ links:
     color: '#183153'
     icon: solid:envelope
 ---
-Hello, je suis Arnaud aka Narno 👋
-
 Papa, cycliste urbain, gamer, travailleur dans les Internets, contributeur open source, agnostique, humaniste, amateur de bière.
