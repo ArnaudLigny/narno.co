@@ -4,6 +4,10 @@ links:
     url: https://twitter.com/Narno/
     color: '#1DA1F2'
     icon: brands:twitter
+  - title: Faire un don
+    url: https://ko-fi.com/narno
+    color: '#FF5F5F'
+    icon: solid:circle-dollar-to-slot
   - title: Blog
     url: https://narno.com/blog/
     color: '#1A4A91'
