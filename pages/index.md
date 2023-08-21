@@ -14,8 +14,8 @@ links:
     icon: solid:blog
   - title: Vidéos
     url: https://narno.com/videos/
-    color: #FF0000
-    icon: video
+    color: '#FF0000'
+    icon: solid:video
   - title: Steam
     url: https://steamcommunity.com/id/narno
     color: '#171A21'
