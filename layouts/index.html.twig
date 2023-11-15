@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     {%- include 'partials/metatags.html.twig' with {page, site} only ~%}
     <style>{{ asset('styles.css')|inline }}</style>
+    {#- https://fontawesome.com/download ~#}
     {{ asset('fontawesome/css/fontawesome.css')|html({}, {preload: true}) }}
     {{ asset('fontawesome/css/brands.css')|html({}, {preload: true}) }}
     {{ asset('fontawesome/css/solid.css')|html({}, {preload: true}) }}
