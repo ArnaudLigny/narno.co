@@ -13,6 +13,7 @@ avatar: avatar.png
 image: avatar.png
 source: https://github.com/ArnaudLigny/narno.co
 theme:
+  - fontawesome
   - pwa
   - netlify
   - netlify-cms
