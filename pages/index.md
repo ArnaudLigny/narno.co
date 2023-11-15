@@ -1,7 +1,7 @@
 ---
 links:
   - title: Twitter
-    url: https://twitter.com/Narno/
+    url: https://twitter.com/Narno
     color: '#1DA1F2'
     icon: brands:twitter
   - title: Faire un don
