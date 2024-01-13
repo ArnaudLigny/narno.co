@@ -22,20 +22,21 @@ manifest:
   theme_color: '#1E293B'
 serviceworker:
   enabled: true
-defaultpages:
-  404:
-    published: false
-  sitemap:
-    published: false
+pages:
+  default:
+    404:
+      published: false
+    sitemap:
+      published: false
+  virtual:
+    # Apache Rewrite file
+    - path: .htaccess
+      output: apache_rewrite
 taxonomies:
   categories: disabled
   tags: disabled
 pagination:
   enabled: false
-virtualpages:
-  # Apache Rewrite file
-  - path: .htaccess
-    output: apache_rewrite
 output:
   formats:
     apache_rewrite:
