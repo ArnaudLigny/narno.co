@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors');
+
 module.exports = {
   content: [
     './layouts/**/*.html.twig',
@@ -5,12 +7,20 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        neutral: '#94A3B8',
-      },
-      textColor: {
-        primary: 'white',
-        secondary: '#94A3B8',
-        link: '#6194c7',
+        // https://tailwindcss.com/docs/customizing-colors
+        primary: colors.sky,
+        neutral: colors.slate,
+        social: {
+          twitter: '#1da1f2',
+          github: '#333',
+          linkedin: '#0077b5',
+          instagram: '#c13584',
+          youtube: '#ff0000',
+          mastodon: '#6364FF',
+          steam: '#171A21',
+          bluesky: '#1285FE',
+          threads: '#000',
+        },
       },
     },
   },
