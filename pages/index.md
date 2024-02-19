@@ -1,13 +1,5 @@
 ---
 links:
-  - title: Twitter
-    url: https://twitter.com/Narno
-    color: '#1DA1F2'
-    icon: brands:twitter
-  - title: Mastodon
-    url: https://gazuji.com/@narno
-    color: '#6364FF'
-    icon: brands:mastodon
   - title: Faire un don
     url: https://ko-fi.com/narno
     color: '#FF5F5F'
@@ -20,17 +12,17 @@ links:
     url: https://narno.com/videos/
     color: '#FF0000'
     icon: solid:video
-  - title: Steam
-    url: https://steamcommunity.com/id/narno
-    color: '#171A21'
-    icon: brands:steam
   - title: Mon PC
     url: https://narno.com/config-pc/
     color: '#185886'
     icon: solid:computer
+  - title: Mes vélos
+    url: https://narno.com/mes-velos/
+    color: '#185886'
+    icon: solid:bicycle
   - title: Contact
     url: mailto:contact@narno.com
-    color: '#183153'
+    color: '#000'
     icon: solid:envelope
 ---
 Papa, cycliste urbain, gamer, travailleur dans les Internets, contributeur open source, agnostique, humaniste, amateur de bière.
