@@ -1,0 +1,71 @@
+title: "Narno"
+baseurl: https://narno.co/
+baseline: "Cycliste urbain et gamer"
+description: "Quelques liens à propos de Narno."
+author:
+  name: Narno
+  url: https://narno.com
+social:
+  twitter:
+    creator: Narno
+    url: https://twitter.com/Narno
+  mastodon:
+    url: https://gazuji.com/@narno
+  steam:
+    url: https://steamcommunity.com/id/narno
+  #bluesky:
+  #  url: https://bsky.app/profile/narno.bsky.social
+  #threads:
+  #  url: https://www.threads.net/@narnoavelo
+avatar: avatar.png
+metatags:
+  favicon:
+    image: avatar.png
+image: avatar.png
+source: https://github.com/Cecilapp/Links
+
+# PWA
+manifest:
+  #background_color: '#fff'
+  theme_color: '#0369a1' # https://tailwindcss.com/docs/customizing-colors "700"
+serviceworker:
+  enabled: true
+
+# languages
+language: fr
+languages:
+  - code: fr
+    locale: fr_FR
+    name: Français
+
+# Cecil options
+theme:
+  - fontawesome
+  - pwa
+  - netlify
+taxonomies:
+  categories: disabled
+  tags: disabled
+pagination:
+  enabled: false
+pages:
+  default:
+    404:
+      published: false
+    sitemap:
+      published: false
+    xsl/atom:
+      published: false
+    xsl/rss:
+      published: false
+output:
+  pagetypeformats:
+    homepage: html
+
+# Netlify
+netlify:
+  redirects:
+    - from: https://nrn.netlify.app/*
+      to: https://narno.co/:splat
+      status: 301
+      force: true
