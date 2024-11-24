@@ -6,6 +6,8 @@ author:
   name: Narno
   url: https://narno.com
 social:
+  bluesky:
+    url: https://bsky.app/profile/narno.com
   twitter:
     creator: Narno
     url: https://twitter.com/Narno
@@ -13,8 +15,6 @@ social:
     url: https://gazuji.com/@narno
   steam:
     url: https://steamcommunity.com/id/narno
-  #bluesky:
-  #  url: https://bsky.app/profile/narno.bsky.social
   #threads:
   #  url: https://www.threads.net/@narnoavelo
 avatar: avatar.png
