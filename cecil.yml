@@ -5,6 +5,7 @@ description: "Quelques liens à propos de Narno."
 author:
   name: Narno
   url: https://narno.com
+  email: contact@narno.com
 social:
   bluesky:
     url: https://bsky.app/profile/narno.com
@@ -22,7 +23,6 @@ metatags:
   favicon:
     image: avatar.png
 image: avatar.png
-source: https://github.com/Cecilapp/Links
 
 # PWA
 manifest:

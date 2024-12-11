@@ -1,4 +1,10 @@
 ---
+blocks:
+  - name: social  # social accounts
+  - name: content # page content
+  - name: links   # page links
+    options:
+      display: column # grid or column ('column' by default)
 links:
   - title: Faire un don
     url: https://ko-fi.com/narno
@@ -20,9 +26,5 @@ links:
     url: https://narno.com/mes-velos/
     color: '#185886'
     icon: solid:bicycle
-  - title: Contact
-    url: mailto:contact@narno.com
-    color: '#000'
-    icon: solid:envelope
 ---
 Papa, cycliste urbain, gamer, travailleur dans les Internets, contributeur open source, agnostique, humaniste, amateur de bière.
