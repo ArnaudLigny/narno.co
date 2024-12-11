@@ -10,8 +10,8 @@ social:
   bluesky:
     url: https://bsky.app/profile/narno.com
   twitter:
-    creator: Narno
     url: https://twitter.com/Narno
+    creator: Narno
   mastodon:
     url: https://gazuji.com/@narno
   steam:
@@ -19,10 +19,12 @@ social:
   #threads:
   #  url: https://www.threads.net/@narnoavelo
 avatar: avatar.png
+image: avatar.png
 metatags:
   favicon:
     image: avatar.png
-image: avatar.png
+  title:
+    only: true
 
 # PWA
 manifest:
