@@ -20,11 +20,6 @@ social:
   #  url: https://www.threads.net/@narnoavelo
 avatar: avatar.png
 image: avatar.png
-metatags:
-  favicon:
-    image: avatar.png
-  title:
-    only: true
 
 # PWA
 manifest:
@@ -40,25 +35,11 @@ languages:
     locale: fr_FR
     name: Français
 
-# Cecil options
 theme:
   - fontawesome
+  - links
   - pwa
   - netlify
-taxonomies:
-  categories: disabled
-  tags: disabled
-pagination:
-  enabled: false
-pages:
-  default:
-    xsl/atom:
-      published: false
-    xsl/rss:
-      published: false
-output:
-  pagetypeformats:
-    homepage: html
 
 # Netlify
 netlify:
