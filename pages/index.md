@@ -1,10 +1,11 @@
 ---
 blocks:
-  - name: social  # social accounts
-  - name: content # page content
-  - name: links   # page links
+  - name: social
+  - name: content
+  - name: links
     options:
-      display: column # grid or column ('column' by default)
+      display: column
+      color: css
 links:
   - title: Faire un don
     url: https://ko-fi.com/narno
