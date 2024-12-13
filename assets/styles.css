@@ -588,7 +588,7 @@ html {
     --tw-gradient-from: #172554 var(--tw-gradient-from-position);
     --tw-gradient-to: rgb(23 37 84 / 0) var(--tw-gradient-to-position);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-    --tw-gradient-to: #14b8a6 var(--tw-gradient-to-position);
+    --tw-gradient-to: #042f2e var(--tw-gradient-to-position);
   }
 }
 
@@ -633,6 +633,8 @@ a:hover:not(.button), button:hover {
   .button {
     --tw-bg-opacity: 1;
     background-color: rgb(23 37 84 / var(--tw-bg-opacity, 1));
+    --tw-text-opacity: 1;
+    color: rgb(239 246 255 / var(--tw-text-opacity, 1));
     --tw-brightness: brightness(.9);
     filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
   }
