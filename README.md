@@ -15,7 +15,7 @@ npm install
 
 ```bash
 # build CSS
-npx tailwindcss -i ./tailwind.css -o ./assets/styles.css --watch
+npx tailwindcss -i ./themes/links/tailwind.css -o ./assets/styles.css --watch
 # build and serve static website
 php cecil.phar serve -v --clear-cache=css
 # build
