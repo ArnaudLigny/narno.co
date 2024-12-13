@@ -3,9 +3,6 @@ blocks:
   - name: social
   - name: content
   - name: links
-    options:
-      display: column
-      color: css
 links:
   - title: Faire un don
     url: https://ko-fi.com/narno
