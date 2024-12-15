@@ -24,7 +24,6 @@ image: avatar.png
 links:
   theme: gradient-1
   buttons:
-    display: column
     color: css
 
 # PWA
