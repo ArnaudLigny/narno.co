@@ -1,0 +1,3 @@
+image: wordpress:cli-php8.4
+command: curl -sSOL https://cecil.app/build.sh && bash ./build.sh
+public: _site
