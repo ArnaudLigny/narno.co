@@ -45,3 +45,10 @@ theme:
   - links
   - pwa
   - redirects
+
+server:
+  redirects:
+    - from: https://www.narno.co/*
+      to: https://narno.co/:splat
+      status: 301
+      force: true
