@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "58af1f718fd484d7d8cd886ffc8bcb43",
+    "content-hash": "ca5eb2f59393a2949843d7e286514d65",
     "packages": [
         {
             "name": "cecil/theme-fontawesome",
