@@ -44,12 +44,4 @@ theme:
   - fontawesome
   - links
   - pwa
-  - netlify
-
-# Netlify
-netlify:
-  redirects:
-    - from: https://nrn.netlify.app/*
-      to: https://narno.co/:splat
-      status: 301
-      force: true
+  - redirects
