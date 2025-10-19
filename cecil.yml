@@ -22,7 +22,6 @@ avatar: avatar.png
 image: avatar.png
 
 links:
-  theme: gradient-1
   buttons:
     color: css
 
