@@ -25,6 +25,13 @@ links:
   buttons:
     color: css
 
+# pages configuration
+pages:
+  body:
+    links:
+      external:
+        blank: true # open in new tab
+
 # PWA
 manifest:
   #background_color: '#fff'
