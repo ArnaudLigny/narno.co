@@ -19,39 +19,47 @@ social:
   #threads:
   #  url: https://www.threads.net/@narnoavelo
 avatar: avatar.png
-image: avatar.png
-
+image: avatar.png # Open Graph image
+# CSS theme and buttons colors
 links:
   buttons:
-    color: css
-
+    color: css # page or css ('page' by default)
 # pages configuration
 pages:
   body:
     links:
       external:
         blank: true # open in new tab
-
+  default:
+    sitemap:
+      published: false
+    xsl/sitemap:
+      published: false
+    xsl/atom:
+      published: false
+output:
+  pagetypeformats:
+    homepage: html
 # PWA
 manifest:
-  #background_color: '#fff'
-  theme_color: '#0369a1' # https://tailwindcss.com/docs/customizing-colors "700"
+  #background_color: "#EFF6FF"
+  theme_color: "#0369a1"
+  #theme_color_dark: "#162556"
 serviceworker:
   enabled: true
-
 # languages
 language: fr
 languages:
   - code: fr
     locale: fr_FR
     name: Français
-
+# themes
 theme:
-  - fontawesome
   - links
+  - fontawesome
   - pwa
   - redirects
-
+# server
 server:
   redirects:
     - from: https://www.narno.co/*
