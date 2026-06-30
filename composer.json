@@ -18,7 +18,8 @@
     "cecil/theme-headers": "^1.0"
   },
   "scripts": {
-    "post-create-project-cmd": "curl -LO https://cecil.app/cecil.phar"
+    "post-create-project-cmd": "curl -LO https://cecil.app/cecil.phar",
+    "css:build": "vendor/bin/tailwind-builder assets/tailwind.css --minify"
   },
   "config": {
     "allow-plugins": {
